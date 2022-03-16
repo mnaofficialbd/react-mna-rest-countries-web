@@ -1,7 +1,15 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .country{
     background-color: rgb(28, 223, 54);
     border: 3px solid red;
     border-radius: 10px;
     margin: 15px;
     padding: 10px;
+  }
+  .flags{
+      height: 120px;
+      width: 200;
   }

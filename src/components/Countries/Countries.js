@@ -11,7 +11,7 @@ const Countries = () => {
     console.log(countries[0])
     return (
         <div>
-            <h1>Visiting every country of the world!</h1>
+            <h1 className='header-text'>Visiting every country of the world!</h1>
             <h4>Available country: {countries.length}</h4>
             <div className='main'>
                 {

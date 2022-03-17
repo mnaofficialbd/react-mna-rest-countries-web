@@ -1,13 +1,28 @@
+.body-container{
+    margin: 10px;
+    padding: 10px;
+}
+.header-area{
+    background-color: rgb(177, 253, 0);
+padding: 10px;
+border-radius: 20px;
+margin-left: 15px;
+margin-right: 15px;
+}
 .header-text{
     color: red;
+}
+.developer{
+    color: blue;
+    font-weight: bold;
 }
 .main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .country{
-    background-color: rgb(28, 223, 54);
-    border: 3px solid red;
+    background-color: rgb(186, 232, 247);
+    border: 2px solid red;
     border-radius: 10px;
     margin: 15px;
     padding: 10px;
